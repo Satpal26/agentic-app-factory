@@ -64,8 +64,10 @@ This ensures that the frontend and backend are perfectly synced, eliminating the
 3. Initialize Claude: `claude`.
 4. Paste the **Initial Prompt** (e.g., the FlowBoard SaaS prompt).
 
+```bash
 # Example Prompt Initiation
 > Build a full-stack SaaS project management application called "FlowBoard"...
+
 
 🛡️ Built-in Quality Standards
 Zero-Stub Policy: No // TODO comments. Every function is fully implemented.
@@ -90,5 +92,6 @@ Resilient Logic: Automatic retry mechanisms and post-mortem logging for pipeline
                                              [Reviewer Agent] ◄── Audit & Patch Loop
                                                      │
                                              [DevOps & Tester] ──► [Final App]
+
 
 Developed by Satpal Singh for the CBC Agentic Development Challenge.
